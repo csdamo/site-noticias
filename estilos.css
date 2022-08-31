@@ -53,23 +53,56 @@
 
 
 
+/* Estilo das páginas de notícia  */
 
+.main-noticia {
+    max-width: 1600px;
+    font-size: 1.125rem;
+    width: 55.5rem;
+    margin: 0 auto 4rem;
+}
 
-
-
-
-
-
-.manchete{
-    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
-    font-size: 56px;
-    letter-spacing: var(--font-size-110-responsive-display-letter-spacing);
-    font-variation-settings: var(--font-variation-settings-display-normal-roman);
-    font-feature-settings: var(--font-feature-settings-display-roman);
-    text-align: left;
+.cabeca-noticia {
+    margin-top: 64px;
+    width: 55.5rem;
     padding: 0;
 }
 
-.data {
-    color:gray;
+.titulo-noticia h1 {
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 56px;
+    letter-spacing: -0.055em;
+    text-align: left;
+    padding: 0;
+    line-height: 110%;
+    font-weight: 700;
+    color: #111;    
+}
+
+
+.subtitulo p {
+   font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    padding-left: 0;
+    text-align: left;
+}
+
+
+.date-time {
+   font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #555;
+    width: 55.5rem;
+    justify-content: space-between;
+    margin: 0 auto 4rem;
+}
+
+.divisor {
+    width: 55.5rem;
+    margin: 0 auto 4rem;
+    border: 0;
+    border-top: 1px solid #ccc;
+
 }
