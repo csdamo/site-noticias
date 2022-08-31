@@ -1,0 +1,75 @@
+.home{
+    background-color: #F9F9F9;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #C4170C;
+}
+
+.banner{
+    height: 10vh;
+    text-align: center;
+    background-color: #C4170C;
+    border-radius: 10px;
+}
+
+.titulo {
+    color: #C4170C;
+}
+
+.destaques {
+    background-color: white;
+    padding-top: 0.7em;
+    display: flex;
+}
+
+.destaque {
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    padding: 1em;
+    width: 50%;
+}
+
+#destaque-2 {
+    color: white;
+    background-image: url("./image/mg.jpg");
+    background-size: cover;
+    width: 40%;
+}
+
+#destaque-3 {
+    color: white;
+    background-image: url("./image/gorbachev.jpg");
+    background-size: cover;
+    width: 40%;
+}
+
+.link-destaque {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.manchete{
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 56px;
+    letter-spacing: var(--font-size-110-responsive-display-letter-spacing);
+    font-variation-settings: var(--font-variation-settings-display-normal-roman);
+    font-feature-settings: var(--font-feature-settings-display-roman);
+    text-align: left;
+    padding: 0;
+}
+
+.data {
+    color:gray;
+}
