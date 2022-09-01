@@ -104,7 +104,6 @@ p, span, li, h1, h2 {
 
 .main-noticia {
     max-width: 1600px;
-    font-size: 1.125rem;
     width: 55.5rem;
     margin: 0 auto 4rem;
 }
@@ -132,37 +131,27 @@ p, span, li, h1, h2 {
     letter-spacing: -0.03em;
     padding-left: 0;
     text-align: left;
+    color: #111;
 }
 
 .date-time {
     font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
     font-size: 16px;
     letter-spacing: -0.02em;
-    color: #555;
-    width: 55.5rem;
-    justify-content: space-between;
     margin: 0 auto 4rem;
+    color: #555;
 }
 
 .divisor {
     width: 55.5rem;
-    margin: 0 auto 4rem;
     border: 0;
     border-top: 1px solid #ccc;
 
 }
 
 .corpo_noticia{
-    max-width: 1600px;
-    font-size: 1.125rem;
     width: 45.5rem;
     margin: 0 auto 4rem;
-}
-
-.video {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    max-width: 85rem;
 }
 
 .corpo_noticia p{
@@ -173,6 +162,23 @@ p, span, li, h1, h2 {
     line-height: 2rem;
     padding-left: 1rem; 
     padding-right: 1rem;
+}
+
+.subtitulo-noticia h2{
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.04em;
+    line-height: 110%;
+    font-weight: 700;
+    margin-bottom: -0.5rem;
+    margin-top: 24px;
+    color: #111;
+}
+
+.video {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    max-width: 85rem;  
 }
 
 .legenda {
@@ -191,18 +197,6 @@ p, span, li, h1, h2 {
 .imagem-media img{
    width: 640px;
 }
-
-.subtitulo-noticia h2{
-    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
-    font-size: 32px;
-    letter-spacing: -0.04em;
-    line-height: 110%;
-    font-weight: 700;
-    margin-bottom: -0.5rem;
-    margin-top: 24px;
-    color: #111;
-}
-
 
 .footer{
     background-color: #c4170c;
