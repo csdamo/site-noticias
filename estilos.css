@@ -1,3 +1,8 @@
+p, span, li, h1, h2 {
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    line-height: 110%;
+}
+
 .home{
     background-color: #F9F9F9;
 }
@@ -29,6 +34,7 @@
 .titulo {
     color: #C4170C;
     font-size: 2.5em;
+    letter-spacing: -0.055em;
 }
 
 .texto-destaque {
@@ -89,6 +95,7 @@
 
 .texto-previa {
     font-size: 1em;
+    letter-spacing: -0.03em;
 }
 
 
