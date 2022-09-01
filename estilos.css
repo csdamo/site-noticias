@@ -162,13 +162,14 @@ p, span, li, h1, h2 {
     margin: 0 auto 64px;
 }
 
-.corpo_noticia p{
+.texto_noticia p{
     font-size: 20px;
     letter-spacing: -0.48px;
     margin-bottom: 40px;
     line-height: 32px;
     padding-left: 16px; 
     padding-right: 16px;
+    text-align: justify;
 }
 
 .subtitulo-noticia h2{
@@ -201,7 +202,7 @@ p, span, li, h1, h2 {
 }
 
 .imagem-grande img{
-   width: auto;
+   width: 900px;
 }
 
 .imagem-media img{
