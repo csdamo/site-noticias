@@ -79,18 +79,16 @@
     color: #111;    
 }
 
-
 .subtitulo p {
-   font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
     font-size: 20px;
     letter-spacing: -0.03em;
     padding-left: 0;
     text-align: left;
 }
 
-
 .date-time {
-   font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
     font-size: 16px;
     letter-spacing: -0.02em;
     color: #555;
@@ -105,4 +103,55 @@
     border: 0;
     border-top: 1px solid #ccc;
 
+}
+
+.corpo_noticia{
+    max-width: 1600px;
+    font-size: 1.125rem;
+    width: 45.5rem;
+    margin: 0 auto 4rem;
+}
+
+.video {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    max-width: 85rem;
+}
+
+.corpo_noticia p{
+   font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    line-height: 2rem;
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+
+.legenda {
+    color: #555;
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    line-height: 110%;
+    margin: 16px 0 0 0;
+}
+
+.imagem-grande img{
+   width: auto;
+}
+
+.imagem-media img{
+   width: 640px;
+}
+
+.subtitulo-noticia h2{
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.04em;
+    line-height: 110%;
+    font-weight: 700;
+    margin-bottom: -0.5rem;
+    margin-top: 24px;
+    color: #111;
 }
