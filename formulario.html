@@ -24,31 +24,36 @@
     
                 <label for="telefone">Telefone</label>
                 <input type="tel" class="input-padrao" id="telefone" name="telefone" required placeholder="(54)99999-9999">
-                <fieldset>
-                    <legend>Como você se reconhece:</legend>
-                    <select>
-                        <option>---------</option>
-                        <option>Mulher</option>
-                        <option>Homem</option>
-                        <option>Não Binario</option>
-                    </select>
-                </fieldset>
-                <fieldset>
-                    <legend>Como prefere nosso contato?</legend>
-    
-                    <label for="radio-email">
-                        <input type="radio" id="radio-email" name="contato" value="email">
-                        E-mail
-                    </label>
-                    <label for="radio-telefone">
-                        <input type="radio" id="radio-telefone" name="contato" value="telefone">
-                        Telefone
-                    </label>
-                    <label for="radio-whatsapp">
-                        <input type="radio" id="radio-whatsapp" name="contato" value="whatsapp" checked>
-                        WhatsApp
-                    </label>
-                </fieldset>
+                <section class="fieldset">
+                    <fieldset>
+                        <legend>Como você se reconhece:</legend>
+                        <select>
+                            <option>---------</option>
+                            <option>Mulher</option>
+                            <option>Homem</option>
+                            <option>Não Binario</option>
+                        </select>
+                    </fieldset>
+                </section>
+                <section class="fieldset">
+                    <fieldset>
+                        <legend>Como prefere nosso contato?</legend>
+        
+                        <label for="radio-email">
+                            <input type="radio" id="radio-email" name="contato" value="email">
+                            E-mail
+                        </label>
+                        <label for="radio-telefone">
+                            <input type="radio" id="radio-telefone" name="contato" value="telefone">
+                            Telefone
+                        </label>
+                        <label for="radio-whatsapp">
+                            <input type="radio" id="radio-whatsapp" name="contato" value="whatsapp" checked>
+                            WhatsApp
+                        </label>
+                    </fieldset>
+                </section>
+
                 <label>
                     <input class="checkbox" type="checkbox" name="" checked>
                     Gostaria de receber nossas novidades por e-mail

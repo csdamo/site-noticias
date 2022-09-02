@@ -237,7 +237,8 @@ form {
 }
 
 form label, form legend {
-	display: block;
+    display: block;
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -247,6 +248,23 @@ form label, form legend {
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+}
+
+.fieldset {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.fieldset select {
+    display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.fieldset select option{
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-size: 18px;
 }
 
 .checkbox {
