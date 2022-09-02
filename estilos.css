@@ -5,6 +5,7 @@ p, span, li, h1, h2, label {
 
 .home{
     background-color: #F9F9F9;
+    margin: 0;
 }
 
 .conteudo {
