@@ -3,9 +3,12 @@ p, span, li, h1, h2, label {
     line-height: 110%;
 }
 
+body {
+    margin: 0;
+}
+
 .home{
     background-color: #F9F9F9;
-    margin: 0;
 }
 
 .conteudo {
@@ -21,17 +24,8 @@ p, span, li, h1, h2, label {
     background-color: #C4170C;
 }
 
-.banner{
-    height: 10vh;
-    width: 100%;
-    text-align: center;
-    background-color: #C4170C;
-    border-radius: 10px;
-    margin: 0 5px;
-}
-
 .image {
-    height: 25vh;
+    height: 30vh;
     width: auto;
 }
 
@@ -97,6 +91,11 @@ p, span, li, h1, h2, label {
     width: 30%;
 }
 
+.infos-lateral ul {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
 .conteudo-previa {
     padding: 0 1.5em;
 }
@@ -106,7 +105,7 @@ p, span, li, h1, h2, label {
 }
 
 .texto-previa {
-    font-size: 1em;
+    font-size: 0.9em;
     letter-spacing: -0.03em;
 }
 
@@ -277,7 +276,6 @@ form label, form legend {
 
 .footer{
     background-color: #c4170c;
-    width: 100%;
     padding: 20px 30px;
 }
 
