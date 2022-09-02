@@ -216,7 +216,7 @@ p, span, li, h1, h2 {
 }
 
 .footer img {
-    height: 50px;
+    height: 60px;
     float: left;
 }
 
@@ -226,16 +226,35 @@ p, span, li, h1, h2 {
     letter-spacing: -0.64px;
 }
 
+.footer-servicos {
+    padding: 13px 50px 30px;
+
+}
+.footer-servicos p{
+    float: left;
+}
+
 .footer ul {
     list-style: none;
+    display: block;
+    float: right;
+}
+
+
+.footer ul li {
+    float: left;
+    border-left: 0;
+    padding-left: 0;
 }
 
 .footer a {
     color: #fff;
     text-decoration: none;
     font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+    padding-right: 10px;
 }
 
 .footer a:hover {
     text-decoration: underline;
 }
+
