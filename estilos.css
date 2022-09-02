@@ -154,6 +154,7 @@ p, span, li, h1, h2 {
     width: 900px;
     border: 0;
     border-top: 1px solid #ccc;
+    padding-bottom: 20px;
 
 }
 
@@ -207,6 +208,26 @@ p, span, li, h1, h2 {
 
 .imagem-media img{
    width: 640px;
+}
+
+.link-noticia {
+ margin-left: 150px;
+}
+
+.link-noticia ul li{
+    letter-spacing: -0.16px;
+    font-weight: 700;
+   }
+
+.link-noticia ul li a{
+    padding-left: 10px;
+    font-size: 18px;
+    color: #c4170c;
+    text-decoration: none;
+}
+
+.link-noticia a:hover {
+    text-decoration: underline;
 }
 
 .footer{
