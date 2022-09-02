@@ -6,7 +6,7 @@
 		<title>	</title>
 		<link rel="stylesheet" href="estilos.css">
 	</head>
-	<body>
+	<body class="home">
         <a href="index.html">Home</a>
         <a href="pagina1.html">P1</a>
         <a href="pagina2.html">P2</a>
@@ -14,6 +14,49 @@
         <a href="pagina4.html">P4</a>
         <a href="formulario.html">Inscrição</a>
 
+        <main class="main">
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" class="input-padrao" id="nomesobrenome" name="nome" required>
+    
+                <label for="email">E-mail</label>
+                <input type="email" class="input-padrao" id="email" name="email" required>
+    
+                <label for="telefone">Telefone</label>
+                <input type="tel" class="input-padrao" id="telefone" name="telefone" required placeholder="(54)99999-9999">
+                <fieldset>
+                    <legend>Como você se reconhece:</legend>
+                    <select>
+                        <option>---------</option>
+                        <option>Mulher</option>
+                        <option>Homem</option>
+                        <option>Não Binario</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+    
+                    <label for="radio-email">
+                        <input type="radio" id="radio-email" name="contato" value="email">
+                        E-mail
+                    </label>
+                    <label for="radio-telefone">
+                        <input type="radio" id="radio-telefone" name="contato" value="telefone">
+                        Telefone
+                    </label>
+                    <label for="radio-whatsapp">
+                        <input type="radio" id="radio-whatsapp" name="contato" value="whatsapp" checked>
+                        WhatsApp
+                    </label>
+                </fieldset>
+                <label>
+                    <input class="checkbox" type="checkbox" name="" checked>
+                    Gostaria de receber nossas novidades por e-mail
+                </label>
+                
+                <input class="enviar" type="submit" name="submit" value="Enviar">
+            </form>
+        </main>
         <footer>
             <section class="footer">
                 <a href="index.html"><img src="image/logo-g1.png" alt="Logo g1"></a>
