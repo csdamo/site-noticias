@@ -11,6 +11,16 @@ body {
     background-color: #F9F9F9;
 }
 
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
 .conteudo {
     padding: 0 1.5em;
     display: flex;
