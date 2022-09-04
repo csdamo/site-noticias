@@ -11,16 +11,6 @@ body {
     background-color: #F9F9F9;
 }
 
-.nav a {
-    color: #fff;
-    text-decoration: none;
-    font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-}
-
 .conteudo {
     padding: 0 1.5em;
     display: flex;
@@ -122,6 +112,16 @@ body {
 
 
 /* Estilo das páginas de notícia  */
+
+.header-paginas p {
+    font-size: 32px;
+    letter-spacing: -0.88px;
+    font-weight: 300;
+}
+
+.header-paginas a img{
+    height: 75px;  
+}
 
 .main {
     max-width: 1600px;
