@@ -146,7 +146,6 @@ body {
 }
 
 
-
 /* Estilo das páginas de notícia  */
 
 .header-paginas p {
@@ -156,7 +155,7 @@ body {
 }
 
 .header-paginas a img{
-    height: 75px;  
+    height: 70px;  
 }
 
 .main {
@@ -226,6 +225,11 @@ body {
     margin-bottom: -8px;
     margin-top: 24px;
     color: #111;
+}
+
+.destaque-texto{
+    font-weight: 700;
+    color: #C4170C;
 }
 
 .video {
