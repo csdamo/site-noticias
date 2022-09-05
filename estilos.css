@@ -1,4 +1,4 @@
-p, span, li, h1, h2, label {
+p, span, li, h1, h2, h3, h4, h5, h6, label {
     font-family: Arial, Inter, -apple-system, "system-ui", Roboto, "Helvetica Neue", Helvetica, Noto, Ubuntu, "Segoe UI", sans-serif;
     line-height: 110%;
 }
@@ -31,9 +31,10 @@ body {
 }
 
 .conteudo {
-    padding: 0 1.5em;
+    padding: 0 5em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .menu{
@@ -46,7 +47,8 @@ body {
 }
 
 .image {
-    height: 30vh;
+    /* height: 30vh; */
+    max-width: 20vw;
     width: auto;
 }
 
@@ -68,7 +70,7 @@ body {
 }
 
 .destaque {
-    border: 1px solid rgb(175, 175, 175);
+    border: 1px solid rgb(214, 214, 214);
     border-radius: 5px;
     padding: 1em;
     width: 80%;
@@ -101,7 +103,7 @@ body {
 
 .previa-noticia {
     display: flex;
-    /* direction: column; */
+    margin-bottom: 1em;
 }
 
 .noticias {
@@ -109,12 +111,25 @@ body {
 }
 
 .infos-lateral {
-    width: 30%;
+    width: 28%;
 }
 
 .infos-lateral ul {
     list-style-type: decimal;
     list-style-position: inside;
+}
+
+.mais-vistos {
+    padding: 0 1.5em;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.mais-vistos li {
+    font-weight: bold;
+    color: #C4170C;
 }
 
 .conteudo-previa {
