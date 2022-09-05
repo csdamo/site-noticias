@@ -21,7 +21,7 @@
         </header>
 
         <main class="main">
-            <form>
+            <form method="POST">
                 <label for="nomesobrenome">Nome e sobrenome</label>
                 <input type="text" class="input-padrao" id="nomesobrenome" name="nome" required>
     
@@ -36,6 +36,32 @@
     
                 <label for="telefone">Telefone</label>
                 <input type="tel" class="input-padrao" id="telefone" name="telefone" required placeholder="(54)99999-9999">
+                <section class="fieldset">
+                    <fieldset>
+                        <legend>Endereço:</legend>
+                            <div id="div-rua">
+                                <label for="rua">Rua</label>
+                                <input type="text" class="input-padrao" id="rua" name="rua" required>
+                            </div>
+                            <div id="div-numero" >
+                                <label for="numero">Rua</label>
+                                <input type="text" class="input-padrao" id="numero" name="numero" required>
+                            </div>
+                            <div id="div-cep">
+                                <label for="cep">CEP</label>
+                                <input type="number" class="input-padrao" id="cep" name="cep" required>
+                            </div>
+                            <div id="div-cidade">
+                                <label for="cidade">Cidade</label>
+                                <input type="text" class="input-padrao" id="cidade" name="cidade" required>
+                            </div>
+                            <div id="div-estado">
+                                <label for="estado">Estado</label>
+                                <input type="text" class="input-padrao" id="estado" name="estado" required>
+                            </div>
+                        </fieldset>
+                    </section>
+                </section>
                 <section class="fieldset">
                     <fieldset>
                         <legend>Como você se reconhece:</legend>
@@ -80,11 +106,11 @@
                 <p>Globo Notícias</p>
                 <div class="footer-servicos">
                     <p>Integrantes: Claudia A. Hobus, Cristiane S. Damo, Chaianne R. F. Rocha</p>
-                    <ul class="footer__service-list" style="color: #fff;">
+                    <ul>
                         <li class=""><a href="#" title="princípios editoriais">princípios editoriais | </a></li>
                         <li class=""><a href="#">política de privacidade | </a></li>
-                        <li class=""><a href="#" title="minha conta">minha conta | </a></li>
-                        <li class=""><a href="#" title="anuncie conosco">anuncie conosco | </a></li>
+                        <li class=""><a href="login.html" title="login">Entrar | </a></li>
+                        <li class=""><a href="formulario.html" title="cadastrarse">Cadastrar-se </a></li>
                     </ul>
                 </div>
             </section>
