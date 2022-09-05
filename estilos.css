@@ -321,6 +321,18 @@ form label, form legend {
 	margin: 20px 0;
 }
 
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 600px 100px;
+    grid-gap: 0px;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: 200px 400px 100px;
+    grid-gap: 0px;
+  }
+
 .enviar {
 	width: 40%;
 	padding: 15px 0;
