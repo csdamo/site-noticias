@@ -178,6 +178,9 @@ body {
     font-weight: 700;
     color: #111;    
 }
+.subtitulo{
+margin-bottom: 50px;
+}
 
 .subtitulo p {
     font-size: 20px;
@@ -230,6 +233,19 @@ body {
 .destaque-texto{
     font-weight: 700;
     color: #C4170C;
+}
+
+.destaque-noticia p {
+    font-size: 30px;
+    letter-spacing: -0.48px;
+    margin-bottom: 40px;
+    line-height: 32px;
+    padding-left: 30px; 
+    text-align: justify;
+    font-weight: 700;
+    border-left: #C4170C solid 5px;
+    margin: 30px 50px;
+    color: rgb(58, 58, 58);
 }
 
 .video {
