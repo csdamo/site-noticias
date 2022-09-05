@@ -7,6 +7,25 @@ body {
     margin: 0;
 }
 
+.botao-menu {
+    color: white;
+    width: 6vw;
+    text-align: center;
+}
+
+#usuario {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+
+#usuario i {
+    padding: 0.5em;
+}
+
 .home{
     background-color: #F9F9F9;
 }
@@ -20,8 +39,10 @@ body {
 .menu{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: white;
     background-color: #C4170C;
+    position: relative;
 }
 
 .image {
