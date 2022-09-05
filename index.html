@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Notícias boas de mais</title>
         <link rel=stylesheet href="./estilos.css" type="text/css">
+        <script src="https://kit.fontawesome.com/cc5f9ecf8c.js" crossorigin="anonymous"></script>
     </head>
 
     <body class="home">
@@ -11,11 +12,19 @@
         <a href="formulario.html">Inscrição</a>
 
         <header class="menu">
-            <div>
-                <a href="index.html">Home</a>
-            </div>
+            <a href="index.html" class="botao-menu">
+                <i class="fa-solid fa-house fa-xl" color="white"></i>
+            </a>
             <img src="image/logo-g1.png" alt="Logo g1" height="100vh">
-            <div><p>Buscar</p></div>
+            
+            <span class="botao-menu">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span class="botao-menu" id="usuario">
+                <i class="fa-solid fa-user fa-lg"></i>
+                <p>Entrar <br/>
+                <a href="formulario.html" class="link-destaque" style="color: white;">Cadastrar-se</a></p>
+            </span>
         </header>
 
         <div class="conteudo">
@@ -121,7 +130,7 @@
                 <a href="index.html"><img src="image/logo-g1.png" alt="Logo g1"></a>
                 <p>Globo Notícias</p>
                 <div class="footer-servicos">
-                    <p>© Copyright 2000-2022 Globo Comunicação e Participações S.A.</p>
+                    <p>Integrantes: Claudia A. Hobus, Cristiane S. Damo, Chaianne R. F. Rocha</p>
                     <ul>
                         <li class=""><a href="#" title="princípios editoriais">princípios editoriais | </a></li>
                         <li class=""><a href="#">política de privacidade | </a></li>
