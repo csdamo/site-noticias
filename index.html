@@ -4,18 +4,25 @@
         <meta charset="UTF-8">
         <title>Notícias boas de mais</title>
         <link rel=stylesheet href="./estilos.css" type="text/css">
+        <script src="https://kit.fontawesome.com/cc5f9ecf8c.js" crossorigin="anonymous"></script>
     </head>
 
     <body class="home">
-        
-        <a href="formulario.html">Inscrição</a>
 
         <header class="menu">
-            <div>
-                <a href="index.html">Home</a>
-            </div>
+            <a href="index.html" class="botao-menu">
+                <i class="fa-solid fa-house fa-xl" color="white"></i>
+            </a>
             <img src="image/logo-g1.png" alt="Logo g1" height="100vh">
-            <div><p>Buscar</p></div>
+            
+            <span class="botao-menu">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span class="botao-menu" id="usuario">
+                <i class="fa-solid fa-user fa-lg"></i>
+                <a href="login.html" class="link-destaque" style="color: white;"><p>Entrar<br/></a>
+                <a href="formulario.html" class="link-destaque" style="color: white;">Cadastrar-se</a></p>
+            </span>
         </header>
 
         <div class="conteudo">
@@ -24,11 +31,11 @@
     
                 <article class="destaque" id="destaque-1">
                     <span class="tema"><b>Eleições</b></span>
-                    <!-- <a href="pagina1.html" target="_blank" class="link-destaque"> -->
+                    <a href="pagina5.html" target="_blank" class="link-destaque">
                         <h2 class="titulo">
                             Por unanimidade, TSE decide proibir armas nas seções eleitorais
                         </h2>
-                    <!-- </a> -->
+                    </a>
                     <p class="texto-destaque">
                         Ministros restringiram porte a menos de 100 metros do local de votação, com exceção de policiais a trabalho.
                     </p>
@@ -71,7 +78,7 @@
                     <img src="./image/ifpb-joaopessoa.jpg" alt="Capa notícia 01" class="image">
                     <div class="conteudo-previa">
                         <span class="tema"><b>Processo seletivo</b></span>
-                        <a href="pagina4.html" target="_blank" class="link-destaque">
+                        <a href="pagina7.html" target="_blank" class="link-destaque">
                             <h3 class="titulo">
                                 IFPB abre processo seletivo com cerca de 4 mil vagas para cursos técnicos; veja como se inscrever
                             </h3>
@@ -82,8 +89,10 @@
                     </div>
                 </article>
 
+                <hr class="divisor" style="width: 100%;">
+
                 <article class="previa-noticia">
-                    <img src="./image/ifpb-joaopessoa.jpg" alt="Capa notícia 01" class="image">
+                    <img src="./image/professora-demitida.webp" alt="Capa notícia 01" class="image">
                     <div class="conteudo-previa">
                         <span class="tema"><b>Professora demitida</b></span>
                         <a href="pagina3.html" target="_blank" class="link-destaque">
@@ -96,20 +105,103 @@
                         </p>
                     </div>
                 </article>
+
+                <hr class="divisor" style="width: 100%;">
+
+                <article class="previa-noticia">
+                    <img src="./image/demi-lovato-rock-in-rio.webp" alt="Demi Lovato se apresentando no Rock in Rio" class="image">
+                    <div class="conteudo-previa">
+                        <span class="tema"><b>Rock in Rio</b></span>
+                        <a href="pagina6.html" target="_blank" class="link-destaque">
+                            <h3 class="titulo">
+                                Demi Lovato faz show de pop punk cativante só com mulheres no palco do Rock in Rio
+                            </h3>
+                        </a>
+                        <p class="texto-previa">
+                            Cantora se apresentou neste domingo (4) com músicas de novo álbum quase emo, e versões mais roqueiras de hits da infância da plateia.
+                        </p>
+                    </div>
+                </article>
+
+                <hr class="divisor" style="width: 100%;">
+
+                <article class="previa-noticia">
+                    <img src="./image/deputado-cai-de-helicoptero.webp" alt="Helicóptero caído em um terreno" class="image">
+                    <div class="conteudo-previa">
+                        <span class="tema"><b>Acidente</b></span>
+                        <a href="#" target="_blank" class="link-destaque">
+                            <h3 class="titulo">
+                                Helicóptero com deputado federal cai na Bahia
+                            </h3>
+                        </a>
+                        <p class="texto-previa">
+                            Deputado João Bacelar estava na companhia do piloto e de um candidato a deputado estadual, e seguia para um comício. Os três tiveram apenas ferimentos leves.
+                        </p>
+                    </div>
+                </article>
+
+                <hr class="divisor" style="width: 100%;">
+
+                <article class="previa-noticia">
+                    <img src="./image/liz-truss.webp" alt="Helicóptero caído em um terreno" class="image">
+                    <div class="conteudo-previa">
+                        <span class="tema"><b>Política</b></span>
+                        <a href="#" target="_blank" class="link-destaque">
+                            <h3 class="titulo">
+                                Liz Truss é empossada primeira-ministra pela rainha
+                            </h3>
+                        </a>
+                        <p class="texto-previa">
+                            Substitua de Boris Jonhson será reconhecida pela monarca como nova primeira-ministra. Elizabeth II reconheceu oficialmente renúncia de Johnson, que deixou poder após série de escândalos, mas sinalizou poder voltar ao cargo no futuro.
+                        </p>
+                    </div>
+                </article>
             </section>
 
             <section class="infos-lateral">
-                <article>
+                <article class="mais-vistos">
                     <h4>Mais vistos</h4>
                     <ol>
                         <li>Efeito Janones já beneficia Lula, mas parte da esquerda ainda tem nojinho de seu estilo</li>
+                        <hr class="divisor" style="width: 100%;">
                         <li>Comitê de Blisonaro testa impacto eleitoral da compra de imóveis em dinheiro vivo e estuda reação</li>
+                        <hr class="divisor" style="width: 100%;">
                         <li>Washington Reis, candidato a vice-governador do RJ, e Mário Peixoto são alvo de operação da PF sobre contratos milionários da Saúde</li>
-                        <li>Tumor com cerca de 46 kg é retirado de mulher em cirurgia de emergência em Itaperuna, no RJ</li>
-                        <li>Nasa divulga sons de imagens captadas pelo James Webb</li>
                     </ol>
                     <h5 class="title"></h5>
+                </article>
 
+                <article class="mais-vistos">
+                    <h4>Deu o que falar ... </h4>
+                    <ol>
+                        <li>Filhas cobram R$ 495 mil de pensão de Vampeta</li>
+                        <hr class="divisor" style="width: 100%;">
+                        <li>Maior cachoeira de Mato Grosso do Sul está seca</li>
+                        <hr class="divisor" style="width: 100%;">
+                        <li>Mudou de ideia? Herdeira da Basf nega que vá rejeitar fortuna</li>
+                    </ol>
+                    <h5 class="title"></h5>
+                </article>
+
+                <article class="mais-vistos">
+                    <h4>G1 Explica</h4>
+                    <ul>
+                        <li style="display: inline-flex">
+                            <p>Por que o preço da gasolina está caindo no Brasil?</p>
+                            <img src="./image/preco-gasolina-caindo.webp" alt="posto de gasolina" width="100">
+                        </li>
+                        <hr class="divisor" style="width: 100%;">
+                        <li style="display: inline-flex">
+                            'Pantanal': quanto tempo vai demorar para Tenório lucrar com gado?
+                            <img src="./image/gi-explica-pantanal.webp" alt="posto de gasolina" width="100">
+                        </li>
+                        <hr class="divisor" style="width: 100%;">
+                        <li style="display: inline-flex">
+                            Novas bolhas de óleo no Nordeste: o que se sabe
+                            <img src="./image/bolotas-de-oleo.webp" alt="posto de gasolina" width="100">
+                        </li>
+                    </ul>
+                    <h5 class="title"></h5>
                 </article>
 
             </section> 
@@ -121,12 +213,12 @@
                 <a href="index.html"><img src="image/logo-g1.png" alt="Logo g1"></a>
                 <p>Globo Notícias</p>
                 <div class="footer-servicos">
-                    <p>© Copyright 2000-2022 Globo Comunicação e Participações S.A.</p>
+                    <p>Integrantes: Claudia A. Hobus, Cristiane S. Damo, Chaianne R. F. Rocha</p>
                     <ul>
                         <li class=""><a href="#" title="princípios editoriais">princípios editoriais | </a></li>
                         <li class=""><a href="#">política de privacidade | </a></li>
-                        <li class=""><a href="#" title="minha conta">minha conta | </a></li>
-                        <li class=""><a href="#" title="anuncie conosco">anuncie conosco | </a></li>
+                        <li class=""><a href="login.html" title="login">Entrar | </a></li>
+                        <li class=""><a href="formulario.html" title="cadastrarse">Cadastrar-se </a></li>
                     </ul>
                 </div>
             </section>
