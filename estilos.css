@@ -114,9 +114,14 @@ body {
     width: 28%;
 }
 
-.infos-lateral ul {
+.infos-lateral ol {
+    padding: 10px;
     list-style-type: decimal;
     list-style-position: inside;
+}
+
+.infos-lateral ul {
+    padding: 10px;
 }
 
 .mais-vistos {
